@@ -1,11 +1,10 @@
 import pandas as pd
 import numpy as np
+from scipy.stats import norm
 
-
-chat_id = 123456 # Ваш chat ID, не меняйте название переменной
+chat_id = 424146138
 
 def solution(x: np.array) -> float:
-    # Измените код этой функции
-    # Это будет вашим решением
-    # Не меняйте название функции и её аргументы
-    return x.mean() # Ваш ответ
+    y=np.array([i-871 for i in x])
+    return y.mean() # Ваш ответ
+
